@@ -1,0 +1,71 @@
+/* Estilos generales para el cuerpo */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f8bbd0, #f3e5f5); /* Rosa suave y lavanda */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Contenedor de login */
+.login-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.login-container h1 {
+  font-size: 28px;
+  color: #9c4dcc; /* Violeta suave */
+  margin-bottom: 20px;
+}
+
+.login-container label {
+  font-size: 14px;
+  color: #7e57c2; /* Violeta suave */
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #e1bee7; /* Bordes violeta muy suave */
+  border-radius: 25px;
+  background-color: #f3e5f5; /* Fondo suave */
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Estilos para el botón */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #9c4dcc; /* Violeta suave */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #7e57c2; /* Violeta más oscuro al hacer hover */
+}
+
+/* Mensaje de error */
+.error-message {
+  color: #e91e63; /* Rosa fuerte */
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+}
